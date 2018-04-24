@@ -5,12 +5,16 @@
 #include "drawing.h"
 
 /*
-	Function definition for 
+	Function definition for circle()
+	This is to draw a circle by adding "*" consecutively
+	Input argument: none
+	Return argument: none
 */
 void circle(void)
 {
-	clearScreen();
-	gotoxy(0,0);
+	clearScreen(); //clear the screen
+	gotoxy(0,0); //go to the top
+	//The following lines lay out the circling shape, each followed by a delay
 	printf("              *    *                \n");
 	delay(3*DELAY);
 	printf("          *            *            \n");
@@ -30,5 +34,5 @@ void circle(void)
 	printf("          *            *            \n");
 	delay(3*DELAY);
 	printf("              *    *                \n");
-	sleep(5);
+	sleep(5); //wait for 5 seconds
 }
