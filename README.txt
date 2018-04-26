@@ -17,11 +17,11 @@ Table of content
 	b) One Straight-through RJ45 cable for Raspberry Pi 3 to access the internet.
 	c) One 16GB SD Card element 14 pre-installed with NOOBS for Raspberry Pi.
 	d) One USB cable (type A to type B) to power the Raspberry Pi device.
-	e) Internet access.
+	e) Readily available Internet access.
 2. Installation
 	a) Insert the SD card into the Raspberry device, and also plug the RJ45 cable in to access the internet.
 	b) Power on the device by using the USB cable.
-	c) Initialize the Raspberry device, change its default setting for sound card and network.
+	c) Initialize the Raspberry device, change its default setting for network configuration.
 	d) Check the email for IP address.
 	e) Use Putty application to remotely interact with Raspberry device.
 3. Operation
